@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-     for (int i = 1; i <= 4; i++)
+    /* for (int i = 1; i <= 4; i++)
      {
          for (int j = 1; j <= i; j++) //(error: j > = i)
          {
@@ -221,9 +221,9 @@ for(int i=1; i<=3; i++){
         }
         cout << endl;
     }
-}*/
+}
 
- /*#include <iostream>
+ #include <iostream>
    using namespace std;
    int main()
    {
@@ -305,7 +305,7 @@ for(int i=1; i<=3; i++){
         }
         cout << endl;
     }
-}
+}*/
 
 //*-------------------------------------------------------------
 //question 5.
@@ -323,4 +323,4 @@ int n = 5;
  }
  cout<<endl;
 }
-}*/
+}
