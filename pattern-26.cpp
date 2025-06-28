@@ -1,6 +1,6 @@
 //*------------------------------------------------------------------
 // question no. 21
-
+//(debugging)
 #include <iostream>
 using namespace std;
 int main(){

@@ -1,17 +1,30 @@
+//butterfly pattern, ques no.27
 #include <iostream>
 using namespace std;
-int main()
-{
-    int n = 5;
-    for (int i = 1; i <= n * 2 - 1; i++)
-    {
-        for (int j = 1; j <= n * 2 - 1; j++)
-        {
-            if (j == i || j == (n * 2 - i))
-                cout << "*";
-            else
-                cout << " ";
+int main(){
+    for(int i=1; i<=5;i++){
+        for(int j=1; j<=i; j++){
+            cout<<"*";
         }
-        cout << endl;
+        for(int s=1; s<=2*(5-i); s++){
+            cout <<" ";
+        }
+        for(int j=1; j<=i; j++){
+            cout << "*";
+        }
+        cout<<endl;
     }
+    for(int i=5; i>=1;i--){
+        for(int j=1; j<=i; j++){
+            cout<<"*";
+        }
+        for(int s=1; s<=2*(5-i); s++){
+            cout <<" ";
+        }
+        for(int j=1; j<=i; j++){
+            cout << "*";
+        }
+        cout<<endl;
 }
+}
+   
