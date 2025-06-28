@@ -226,7 +226,7 @@ for(int i=1; i<=3; i++){
  #include <iostream>
    using namespace std;
    int main()
-   {
+   {*/
      for (int i = 5; i >= 1; i-=2)
      {
          for (int s = 1; s <= (5 - i); s++)
@@ -256,7 +256,7 @@ for(int i=1; i<=3; i++){
     //*----------------------------------------------------------------
     // question 2.
 
-    int i, j, s;
+ /*   int i, j, s;
     for (i = 1; i <= 4; i++)
     {
         for (s = i; s <= 4; s++) //(error: )
