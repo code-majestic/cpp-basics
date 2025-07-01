@@ -5,7 +5,7 @@ int main(){
         for(int j=1; j<=5-i; j++){
             cout<<" ";
         }
-        for(int j=1; j<=2*i-1; j++){
+        for(int j=1; j<=2*i; j++){
             cout<<"*";
         }
         cout<<endl;
